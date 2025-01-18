@@ -1,0 +1,10 @@
+
+Patients : (UR Num pk, Name, Phone, Address, Age, Email, Medicare_Card_Number, Doc id fk)
+
+Docotrs : (Id pk, Name, Email, Phone, Specialty, Years Experance)
+
+Drugs : (trade_Name pk, strength, company_name fk )
+
+Pharmaceutical_company : (company_name pk, Phone, address )
+
+Prescription : (Prescription ID pk, Date, Quantity, Patient_UR_Number fk, doc id fk )
